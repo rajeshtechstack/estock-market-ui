@@ -5,7 +5,7 @@ import { getGlobal } from "./services/global";
 import store from "./services/store";
 
 const instance = axios.create({
-  baseURL: "http://18.206.136.135:2000/api/v1.0",
+  baseURL: "http://44.198.58.248:2000/api/v1.0",
 });
 
 function listener() {
